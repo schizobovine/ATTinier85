@@ -170,12 +170,14 @@
 <wire x1="36" y1="22" x2="33" y2="25" width="0" layer="20" curve="90"/>
 <wire x1="33" y1="25" x2="3" y2="25" width="0" layer="20"/>
 <wire x1="3" y1="25" x2="0" y2="22" width="0" layer="20" curve="90"/>
-<text x="29" y="2" size="0.6" layer="21" font="vector" ratio="12" align="bottom-center">&gt;VERSION</text>
-<text x="29" y="2" size="0.6" layer="22" font="vector" ratio="12" rot="MR0" align="bottom-center">&gt;VERSION</text>
+<text x="27.5" y="22.5" size="1" layer="21" font="vector" ratio="16" align="center">&gt;VERSION</text>
+<text x="27.5" y="22.5" size="1" layer="22" font="vector" ratio="16" rot="MR0" align="center">&gt;VERSION</text>
 <text x="18" y="17.5" size="0.8" layer="22" font="vector" ratio="12" rot="MR0" align="bottom-center">&gt;AUTHOR</text>
 <text x="18" y="19" size="1" layer="22" font="vector" ratio="12" rot="MR0" align="bottom-center">ATTinier85 Display Shield</text>
-<text x="18" y="19" size="1" layer="21" font="vector" ratio="12" align="bottom-center">ATTinier85 Display Shield</text>
-<text x="18" y="17.5" size="0.8" layer="21" font="vector" ratio="12" align="bottom-center">&gt;AUTHOR</text>
+<text x="18" y="14" size="1" layer="21" font="vector" ratio="12" align="bottom-center">ATTinier85 Display Shield</text>
+<text x="18" y="11" size="0.8" layer="21" font="vector" ratio="12" align="bottom-center">&gt;AUTHOR</text>
+<text x="27.5" y="22.5" size="1" layer="1" font="vector" ratio="16" align="center">&gt;VERSION</text>
+<text x="27.5" y="22.5" size="1" layer="16" font="vector" ratio="16" rot="MR0" align="center">&gt;VERSION</text>
 </plain>
 <libraries>
 <library name="A_butts">
@@ -262,6 +264,39 @@ Yageo CFR series &lt;a href="http://www.yageo.com/pdf/yageo/Leaded-R_CFR_2008.pd
 <wire x1="0.762" y1="-0.7" x2="1.27" y2="0.7" width="0.1524" layer="21"/>
 <wire x1="1.27" y1="0.7" x2="1.5875" y2="0" width="0.1524" layer="21"/>
 <wire x1="1.5875" y1="0" x2="2.8" y2="0" width="0.1524" layer="21"/>
+</package>
+<package name="1X04-PTH-VERT">
+<pad name="1" x="0" y="0" drill="0.9" diameter="1.6" shape="octagon" rot="R90"/>
+<pad name="2" x="2.54" y="0" drill="0.9" diameter="1.6" shape="octagon" rot="R90"/>
+<pad name="3" x="5.08" y="0" drill="0.9" diameter="1.6" shape="octagon" rot="R90"/>
+<pad name="4" x="7.62" y="0" drill="0.9" diameter="1.6" shape="octagon" rot="R90"/>
+<text x="-1.3462" y="1.4478" size="0.8128" layer="25" font="vector" ratio="12">&gt;NAME</text>
+<wire x1="-1.27" y1="-0.508" x2="-1.27" y2="0.508" width="0.1524" layer="21"/>
+<wire x1="8.89" y1="-0.508" x2="8.89" y2="0.508" width="0.1524" layer="21"/>
+<wire x1="-0.508" y1="1.27" x2="-1.27" y2="0.508" width="0.1524" layer="21"/>
+<wire x1="0.508" y1="1.27" x2="1.27" y2="0.508" width="0.1524" layer="21"/>
+<wire x1="-0.508" y1="1.27" x2="0.508" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="2.032" y1="1.27" x2="1.27" y2="0.508" width="0.1524" layer="21"/>
+<wire x1="3.048" y1="1.27" x2="3.81" y2="0.508" width="0.1524" layer="21"/>
+<wire x1="2.032" y1="1.27" x2="3.048" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="4.572" y1="1.27" x2="3.81" y2="0.508" width="0.1524" layer="21"/>
+<wire x1="5.588" y1="1.27" x2="6.35" y2="0.508" width="0.1524" layer="21"/>
+<wire x1="4.572" y1="1.27" x2="5.588" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="7.112" y1="1.27" x2="6.35" y2="0.508" width="0.1524" layer="21"/>
+<wire x1="8.128" y1="1.27" x2="8.89" y2="0.508" width="0.1524" layer="21"/>
+<wire x1="7.112" y1="1.27" x2="8.128" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="8.128" y1="-1.27" x2="8.89" y2="-0.508" width="0.1524" layer="21"/>
+<wire x1="7.112" y1="-1.27" x2="6.35" y2="-0.508" width="0.1524" layer="21"/>
+<wire x1="8.128" y1="-1.27" x2="7.112" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="5.588" y1="-1.27" x2="6.35" y2="-0.508" width="0.1524" layer="21"/>
+<wire x1="4.572" y1="-1.27" x2="3.81" y2="-0.508" width="0.1524" layer="21"/>
+<wire x1="5.588" y1="-1.27" x2="4.572" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="3.048" y1="-1.27" x2="3.81" y2="-0.508" width="0.1524" layer="21"/>
+<wire x1="2.032" y1="-1.27" x2="1.27" y2="-0.508" width="0.1524" layer="21"/>
+<wire x1="3.048" y1="-1.27" x2="2.032" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="0.508" y1="-1.27" x2="1.27" y2="-0.508" width="0.1524" layer="21"/>
+<wire x1="-0.508" y1="-1.27" x2="-1.27" y2="-0.508" width="0.1524" layer="21"/>
+<wire x1="0.508" y1="-1.27" x2="-0.508" y2="-1.27" width="0.1524" layer="21"/>
 </package>
 </packages>
 </library>
@@ -454,9 +489,12 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="DESIGNER" value="Nobody" x="13.97" y="-1.27" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U1" library="A_butts" package="ATTINIER85_SHIELD_V2" value="ATTINIER85_SHIELDV2" x="18" y="12.5"/>
-<element name="DISPLAY1" library="A_butts" package="ADAFRUIT_128X32_OLED_I2C_CLOSER_NOHOLES" value="Adafruit 128x32 OLED" x="18" y="6" smashed="yes"/>
+<element name="DISPLAY1" library="A_butts" package="ADAFRUIT_128X32_OLED_I2C_CLOSER_NOHOLES" value="Adafruit 128x32 OLED" x="18" y="2.5" smashed="yes"/>
 <element name="R1" library="A_butts" package="RESISTOR-AXIAL-PTH-7.62MM" value="4.7k" x="7" y="13" rot="MR90"/>
 <element name="R2" library="A_butts" package="RESISTOR-AXIAL-PTH-7.62MM" value="4.7k" x="10" y="13" rot="MR90"/>
+<element name="I2C" library="A_butts" package="1X04-PTH-VERT" value="M04PTH" x="14.19" y="23.25" smashed="yes">
+<attribute name="NAME" x="12.69" y="23.25" size="1" layer="25" font="vector" ratio="12" rot="R90" align="bottom-center"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -475,47 +513,61 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="U1" pad="GND@2"/>
 <contactref element="U1" pad="GND@1"/>
 <contactref element="DISPLAY1" pad="GND"/>
+<contactref element="I2C" pad="1"/>
 </signal>
 <signal name="VCC">
 <contactref element="U1" pad="VCC"/>
 <contactref element="DISPLAY1" pad="VIN"/>
-<wire x1="24.35" y1="6" x2="24.35" y2="13.35" width="0.5" layer="1"/>
-<wire x1="24.35" y1="13.35" x2="28.56" y2="17.56" width="0.5" layer="1"/>
+<wire x1="24.35" y1="2.5" x2="24.35" y2="13.35" width="0.5" layer="1"/>
+<wire x1="24.35" y1="13.35" x2="28.5" y2="17.5" width="0.5" layer="1"/>
+<wire x1="28.5" y1="17.5" x2="28.56" y2="17.56" width="0.5" layer="1"/>
 <wire x1="28.56" y1="17.56" x2="33.25" y2="17.56" width="0.5" layer="1"/>
 <contactref element="R2" pad="P$2"/>
 <contactref element="R1" pad="P$2"/>
 <wire x1="7" y1="16.81" x2="10" y2="16.81" width="0.25" layer="1"/>
-<wire x1="10" y1="16.81" x2="27.81" y2="16.81" width="0.25" layer="1"/>
-<wire x1="27.81" y1="16.81" x2="28.56" y2="17.56" width="0.25" layer="1"/>
+<wire x1="27.81" y1="16.81" x2="28.5" y2="17.5" width="0.25" layer="1"/>
+<contactref element="I2C" pad="2"/>
+<wire x1="16.73" y1="18.04" x2="15.5" y2="16.81" width="0.25" layer="1"/>
+<wire x1="15.5" y1="16.81" x2="10" y2="16.81" width="0.25" layer="1"/>
+<wire x1="16.73" y1="18.04" x2="16.73" y2="23.25" width="0.25" layer="1"/>
+<wire x1="16.73" y1="18.04" x2="27.96" y2="18.04" width="0.25" layer="1"/>
+<wire x1="27.96" y1="18.04" x2="28.5" y2="17.5" width="0.25" layer="1"/>
 </signal>
 <signal name="SDA">
 <contactref element="U1" pad="0"/>
 <contactref element="DISPLAY1" pad="SDA"/>
 <wire x1="33.25" y1="9.94" x2="21.06" y2="9.94" width="0.25" layer="16"/>
 <via x="21.06" y="9.94" extent="1-16" drill="0.3302"/>
-<wire x1="21.06" y1="9.94" x2="13.94" y2="9.94" width="0.25" layer="1"/>
-<wire x1="13.94" y1="9.94" x2="11.65" y2="7.65" width="0.25" layer="1"/>
-<wire x1="11.65" y1="7.65" x2="11.65" y2="6" width="0.25" layer="1"/>
 <contactref element="R1" pad="P$1"/>
-<wire x1="7" y1="9.19" x2="10.19" y2="6" width="0.25" layer="1"/>
-<wire x1="10.19" y1="6" x2="11.65" y2="6" width="0.25" layer="1"/>
+<wire x1="7" y1="9.19" x2="11.65" y2="4.54" width="0.25" layer="1"/>
+<wire x1="11.65" y1="4.54" x2="11.65" y2="2.5" width="0.25" layer="1"/>
+<wire x1="21.06" y1="9.94" x2="17.05" y2="9.94" width="0.25" layer="1"/>
+<wire x1="17.05" y1="9.94" x2="11.65" y2="4.54" width="0.25" layer="1"/>
+<contactref element="I2C" pad="3"/>
+<wire x1="19.27" y1="23.25" x2="19.27" y2="16.5" width="0.25" layer="16"/>
+<via x="19.27" y="16.5" extent="1-16" drill="0.3302"/>
+<wire x1="19.27" y1="16.5" x2="19.27" y2="12.16" width="0.25" layer="1"/>
+<wire x1="19.27" y1="12.16" x2="17.05" y2="9.94" width="0.25" layer="1"/>
 </signal>
 <signal name="SCL">
 <contactref element="U1" pad="2"/>
 <contactref element="DISPLAY1" pad="SCL"/>
-<wire x1="33.25" y1="15.02" x2="16.02" y2="15.02" width="0.25" layer="16"/>
+<wire x1="21.81" y1="15.02" x2="16.02" y2="15.02" width="0.25" layer="16"/>
 <wire x1="16.02" y1="15.02" x2="14.19" y2="13.19" width="0.25" layer="16"/>
-<wire x1="14.19" y1="13.19" x2="14.19" y2="6" width="0.25" layer="16"/>
+<wire x1="14.19" y1="13.19" x2="14.19" y2="2.5" width="0.25" layer="16"/>
 <contactref element="R2" pad="P$1"/>
 <wire x1="14.19" y1="13.19" x2="10.19" y2="9.19" width="0.25" layer="16"/>
 <wire x1="10.19" y1="9.19" x2="10" y2="9.19" width="0.25" layer="16"/>
+<contactref element="I2C" pad="4"/>
+<wire x1="21.81" y1="23.25" x2="21.81" y2="15.02" width="0.25" layer="16"/>
+<wire x1="21.81" y1="15.02" x2="33.25" y2="15.02" width="0.25" layer="16"/>
 </signal>
 <signal name="DISP_RST">
 <contactref element="DISPLAY1" pad="RST"/>
 <contactref element="U1" pad="3"/>
 <wire x1="2.75" y1="12.48" x2="15.52" y2="12.48" width="0.25" layer="1"/>
 <wire x1="15.52" y1="12.48" x2="16.73" y2="11.27" width="0.25" layer="16"/>
-<wire x1="16.73" y1="11.27" x2="16.73" y2="6" width="0.25" layer="16"/>
+<wire x1="16.73" y1="11.27" x2="16.73" y2="2.5" width="0.25" layer="16"/>
 <via x="15.52" y="12.48" extent="1-16" drill="0.3302"/>
 </signal>
 </signals>
@@ -528,6 +580,10 @@ Please make sure your boards conform to these design rules.</description>
 <approved hash="18,29,2f6eac331b561a65"/>
 <approved hash="18,29,f0a7b2314f8bcf97"/>
 <approved hash="18,29,dc223217a4ddb8b9"/>
+<approved hash="18,29,81171ea67ac2e48c"/>
+<approved hash="18,29,9e0e701ae52f85a4"/>
+<approved hash="18,29,4d55c3166c3f0171"/>
+<approved hash="18,29,0ae4dfff3c2ed4ce"/>
 </errors>
 </board>
 </drawing>
