@@ -172,7 +172,7 @@
 <package name="DUMMY">
 <description>NOTHING HERE!!! For when you want a symbol with no package as an option against symbols with a package.</description>
 </package>
-<package name="ATTINIEST85_SHIELD_V2">
+<package name="ATTINIER85_SHIELD_V2">
 <wire x1="-17.9" y1="9.4" x2="-17.9" y2="-9.4" width="0.1524" layer="21"/>
 <wire x1="-17.9" y1="-9.4" x2="-14.9" y2="-12.4" width="0.1524" layer="21" curve="90"/>
 <wire x1="-14.9" y1="-12.4" x2="14.9" y2="-12.4" width="0.1524" layer="21"/>
@@ -181,16 +181,16 @@
 <wire x1="17.9" y1="-9.4" x2="17.9" y2="9.4" width="0.1524" layer="21"/>
 <wire x1="17.9" y1="9.4" x2="14.9" y2="12.4" width="0.1524" layer="21" curve="90"/>
 <wire x1="14.9" y1="12.4" x2="-14.9" y2="12.4" width="0.1524" layer="21"/>
-<pad name="RST" x="-15.25" y="5.06" drill="1" diameter="1.8" shape="octagon" rot="R270"/>
-<pad name="4" x="-15.25" y="2.52" drill="1" diameter="1.8" shape="octagon" rot="R270"/>
-<pad name="3" x="-15.25" y="-0.02" drill="1" diameter="1.8" shape="octagon" rot="R270"/>
-<pad name="GND@1" x="-15.25" y="-2.56" drill="1" diameter="1.8" shape="octagon" rot="R270"/>
-<pad name="RAW" x="-15.25" y="-5.1" drill="1" diameter="1.8" shape="octagon" rot="R270"/>
-<pad name="VCC" x="15.25" y="5.06" drill="1" diameter="1.8" shape="octagon" rot="R270"/>
-<pad name="2" x="15.25" y="2.52" drill="1" diameter="1.8" shape="octagon" rot="R270"/>
-<pad name="1" x="15.25" y="-0.02" drill="1" diameter="1.8" shape="octagon" rot="R270"/>
-<pad name="0" x="15.25" y="-2.56" drill="1" diameter="1.8" shape="octagon" rot="R270"/>
-<pad name="GND@2" x="15.25" y="-5.1" drill="1" diameter="1.8" shape="octagon" rot="R270"/>
+<pad name="RST" x="-15.25" y="5.06" drill="1.2" diameter="1.9" shape="octagon" rot="R270"/>
+<pad name="4" x="-15.25" y="2.52" drill="1.2" diameter="1.9" shape="octagon" rot="R270"/>
+<pad name="3" x="-15.25" y="-0.02" drill="1.2" diameter="1.9" shape="octagon" rot="R270"/>
+<pad name="GND@1" x="-15.25" y="-2.56" drill="1.2" diameter="1.9" shape="octagon" rot="R270"/>
+<pad name="RAW" x="-15.25" y="-5.1" drill="1.2" diameter="1.9" shape="octagon" rot="R270"/>
+<pad name="VCC" x="15.25" y="5.06" drill="1.2" diameter="1.9" shape="octagon" rot="R270"/>
+<pad name="2" x="15.25" y="2.52" drill="1.2" diameter="1.9" shape="octagon" rot="R270"/>
+<pad name="1" x="15.25" y="-0.02" drill="1.2" diameter="1.9" shape="octagon" rot="R270"/>
+<pad name="0" x="15.25" y="-2.56" drill="1.2" diameter="1.9" shape="octagon" rot="R270"/>
+<pad name="GND@2" x="15.25" y="-5.1" drill="1.2" diameter="1.9" shape="octagon" rot="R270"/>
 <hole x="-15.25" y="-9.75" drill="2.5"/>
 <hole x="-15.25" y="9.75" drill="2.5"/>
 <hole x="15.25" y="9.75" drill="2.5"/>
@@ -205,40 +205,6 @@
 <text x="14.15" y="-0.02" size="0.8" layer="21" font="vector" ratio="12" rot="SR90" align="bottom-center">1</text>
 <text x="14.15" y="-2.56" size="0.8" layer="21" font="vector" ratio="12" rot="SR90" align="bottom-center">0</text>
 <text x="14.15" y="-5.1" size="0.8" layer="21" font="vector" ratio="12" rot="SR90" align="bottom-center">GND</text>
-</package>
-<package name="ATTINIEST85_SHIELD">
-<wire x1="-17.9" y1="9.4" x2="-17.9" y2="-9.4" width="0.1524" layer="21"/>
-<wire x1="-17.9" y1="-9.4" x2="-14.9" y2="-12.4" width="0.1524" layer="21" curve="90"/>
-<wire x1="-14.9" y1="-12.4" x2="14.9" y2="-12.4" width="0.1524" layer="21"/>
-<wire x1="-17.9" y1="9.4" x2="-14.9" y2="12.4" width="0.1524" layer="21" curve="-90"/>
-<wire x1="14.9" y1="-12.4" x2="17.9" y2="-9.4" width="0.1524" layer="21" curve="90"/>
-<wire x1="17.9" y1="-9.4" x2="17.9" y2="9.4" width="0.1524" layer="21"/>
-<wire x1="17.9" y1="9.4" x2="14.9" y2="12.4" width="0.1524" layer="21" curve="90"/>
-<wire x1="14.9" y1="12.4" x2="-14.9" y2="12.4" width="0.1524" layer="21"/>
-<pad name="RST" x="-3.1" y="-10.5" drill="1" diameter="1.8" shape="octagon"/>
-<pad name="4" x="-0.56" y="-10.5" drill="1" diameter="1.8" shape="octagon"/>
-<pad name="3" x="1.98" y="-10.5" drill="1" diameter="1.8" shape="octagon"/>
-<pad name="GND@1" x="4.52" y="-10.5" drill="1" diameter="1.8" shape="octagon"/>
-<pad name="RAW" x="7.06" y="-10.5" drill="1" diameter="1.8" shape="octagon"/>
-<pad name="VCC" x="-3.1" y="10.5" drill="1" diameter="1.8" shape="octagon"/>
-<pad name="2" x="-0.56" y="10.5" drill="1" diameter="1.8" shape="octagon"/>
-<pad name="1" x="1.98" y="10.5" drill="1" diameter="1.8" shape="octagon"/>
-<pad name="0" x="4.52" y="10.5" drill="1" diameter="1.8" shape="octagon"/>
-<pad name="GND@2" x="7.06" y="10.5" drill="1" diameter="1.8" shape="octagon"/>
-<hole x="-15.25" y="-9.75" drill="2.5"/>
-<hole x="-15.25" y="9.75" drill="2.5"/>
-<hole x="15.25" y="9.75" drill="2.5"/>
-<hole x="15.25" y="-9.75" drill="2.5"/>
-<text x="-3.1" y="-9.4" size="0.8" layer="21" font="vector" ratio="12" align="bottom-center">RST</text>
-<text x="-0.56" y="-9.4" size="0.8" layer="21" font="vector" ratio="12" align="bottom-center">4</text>
-<text x="1.98" y="-9.4" size="0.8" layer="21" font="vector" ratio="12" align="bottom-center">3</text>
-<text x="4.52" y="-9.4" size="0.8" layer="21" font="vector" ratio="12" align="bottom-center">GND</text>
-<text x="7.06" y="-9.4" size="0.8" layer="21" font="vector" ratio="12" align="bottom-center">RAW</text>
-<text x="-3.1" y="9.4" size="0.8" layer="21" font="vector" ratio="12" rot="SR180" align="bottom-center">VCC</text>
-<text x="-0.56" y="9.4" size="0.8" layer="21" font="vector" ratio="12" rot="SR180" align="bottom-center">2</text>
-<text x="1.98" y="9.4" size="0.8" layer="21" font="vector" ratio="12" rot="SR180" align="bottom-center">1</text>
-<text x="4.52" y="9.4" size="0.8" layer="21" font="vector" ratio="12" rot="SR180" align="bottom-center">0</text>
-<text x="7.06" y="9.4" size="0.8" layer="21" font="vector" ratio="12" rot="SR180" align="bottom-center">GND</text>
 </package>
 <package name="BATTCON_20MM_MINE">
 <wire x1="-7.35" y1="-7.5" x2="-4.65" y2="-10.55" width="0.2" layer="21"/>
@@ -354,6 +320,40 @@
 </polygon>
 <circle x="0" y="0" radius="10" width="0" layer="29"/>
 </package>
+<package name="ATTINIER85_SHIELD">
+<wire x1="-17.9" y1="9.4" x2="-17.9" y2="-9.4" width="0.1524" layer="21"/>
+<wire x1="-17.9" y1="-9.4" x2="-14.9" y2="-12.4" width="0.1524" layer="21" curve="90"/>
+<wire x1="-14.9" y1="-12.4" x2="14.9" y2="-12.4" width="0.1524" layer="21"/>
+<wire x1="-17.9" y1="9.4" x2="-14.9" y2="12.4" width="0.1524" layer="21" curve="-90"/>
+<wire x1="14.9" y1="-12.4" x2="17.9" y2="-9.4" width="0.1524" layer="21" curve="90"/>
+<wire x1="17.9" y1="-9.4" x2="17.9" y2="9.4" width="0.1524" layer="21"/>
+<wire x1="17.9" y1="9.4" x2="14.9" y2="12.4" width="0.1524" layer="21" curve="90"/>
+<wire x1="14.9" y1="12.4" x2="-14.9" y2="12.4" width="0.1524" layer="21"/>
+<pad name="RST" x="-3.1" y="-10.5" drill="1" diameter="1.8" shape="octagon"/>
+<pad name="4" x="-0.56" y="-10.5" drill="1" diameter="1.8" shape="octagon"/>
+<pad name="3" x="1.98" y="-10.5" drill="1" diameter="1.8" shape="octagon"/>
+<pad name="GND@1" x="4.52" y="-10.5" drill="1" diameter="1.8" shape="octagon"/>
+<pad name="RAW" x="7.06" y="-10.5" drill="1" diameter="1.8" shape="octagon"/>
+<pad name="VCC" x="-3.1" y="10.5" drill="1" diameter="1.8" shape="octagon"/>
+<pad name="2" x="-0.56" y="10.5" drill="1" diameter="1.8" shape="octagon"/>
+<pad name="1" x="1.98" y="10.5" drill="1" diameter="1.8" shape="octagon"/>
+<pad name="0" x="4.52" y="10.5" drill="1" diameter="1.8" shape="octagon"/>
+<pad name="GND@2" x="7.06" y="10.5" drill="1" diameter="1.8" shape="octagon"/>
+<hole x="-15.25" y="-9.75" drill="2.5"/>
+<hole x="-15.25" y="9.75" drill="2.5"/>
+<hole x="15.25" y="9.75" drill="2.5"/>
+<hole x="15.25" y="-9.75" drill="2.5"/>
+<text x="-3.1" y="-9.4" size="0.8" layer="21" font="vector" ratio="12" align="bottom-center">RST</text>
+<text x="-0.56" y="-9.4" size="0.8" layer="21" font="vector" ratio="12" align="bottom-center">4</text>
+<text x="1.98" y="-9.4" size="0.8" layer="21" font="vector" ratio="12" align="bottom-center">3</text>
+<text x="4.52" y="-9.4" size="0.8" layer="21" font="vector" ratio="12" align="bottom-center">GND</text>
+<text x="7.06" y="-9.4" size="0.8" layer="21" font="vector" ratio="12" align="bottom-center">RAW</text>
+<text x="-3.1" y="9.4" size="0.8" layer="21" font="vector" ratio="12" rot="SR180" align="bottom-center">VCC</text>
+<text x="-0.56" y="9.4" size="0.8" layer="21" font="vector" ratio="12" rot="SR180" align="bottom-center">2</text>
+<text x="1.98" y="9.4" size="0.8" layer="21" font="vector" ratio="12" rot="SR180" align="bottom-center">1</text>
+<text x="4.52" y="9.4" size="0.8" layer="21" font="vector" ratio="12" rot="SR180" align="bottom-center">0</text>
+<text x="7.06" y="9.4" size="0.8" layer="21" font="vector" ratio="12" rot="SR180" align="bottom-center">GND</text>
+</package>
 </packages>
 <symbols>
 <symbol name="LETTER_L">
@@ -395,7 +395,7 @@
 <wire x1="0" y1="0" x2="0" y2="12.7" width="0.254" layer="94"/>
 <wire x1="93.98" y1="12.7" x2="93.98" y2="0" width="0.254" layer="94"/>
 </symbol>
-<symbol name="ATTINIEST85_SHIELD">
+<symbol name="ATTINIER85_SHIELD">
 <pin name="P0" x="-12.7" y="-2.54" visible="pin" length="short"/>
 <pin name="P1" x="-12.7" y="0" visible="pin" length="short"/>
 <pin name="P2" x="-12.7" y="2.54" visible="pin" length="short"/>
@@ -466,12 +466,12 @@ Standard 8.5x11 US Letter frame</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ATTINIEST85_SHIELD" prefix="U">
+<deviceset name="ATTINIER85_SHIELD" prefix="U">
 <gates>
-<gate name="G$1" symbol="ATTINIEST85_SHIELD" x="0" y="0"/>
+<gate name="G$1" symbol="ATTINIER85_SHIELD" x="0" y="0"/>
 </gates>
 <devices>
-<device name="V1" package="ATTINIEST85_SHIELD">
+<device name="V1" package="ATTINIER85_SHIELD">
 <connects>
 <connect gate="G$1" pin="GND@1" pad="GND@1"/>
 <connect gate="G$1" pin="GND@2" pad="GND@2"/>
@@ -488,7 +488,7 @@ Standard 8.5x11 US Letter frame</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="V2" package="ATTINIEST85_SHIELD_V2">
+<device name="V2" package="ATTINIER85_SHIELD_V2">
 <connects>
 <connect gate="G$1" pin="GND@1" pad="GND@1"/>
 <connect gate="G$1" pin="GND@2" pad="GND@2"/>
@@ -583,7 +583,7 @@ Standard 8.5x11 US Letter frame</description>
 </classes>
 <parts>
 <part name="FRAME1" library="A_butts" deviceset="FRAME-LETTER" device="NO_PACKAGE"/>
-<part name="U1" library="A_butts" deviceset="ATTINIEST85_SHIELD" device="V2"/>
+<part name="U1" library="A_butts" deviceset="ATTINIER85_SHIELD" device="V2"/>
 <part name="SUPPLY1" library="A_butts" deviceset="VCC" device=""/>
 <part name="GND1" library="A_butts" deviceset="GND" device=""/>
 <part name="BATT" library="A_butts" deviceset="BATTERY-COIN" device="CR2032_SMD" value="CR2032"/>

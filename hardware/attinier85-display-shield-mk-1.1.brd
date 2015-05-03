@@ -183,7 +183,7 @@
 <package name="DUMMY">
 <description>NOTHING HERE!!! For when you want a symbol with no package as an option against symbols with a package.</description>
 </package>
-<package name="ATTINIEST85_SHIELD_V2">
+<package name="ATTINIER85_SHIELD_V2">
 <wire x1="-17.9" y1="9.4" x2="-17.9" y2="-9.4" width="0.1524" layer="21"/>
 <wire x1="-17.9" y1="-9.4" x2="-14.9" y2="-12.4" width="0.1524" layer="21" curve="90"/>
 <wire x1="-14.9" y1="-12.4" x2="14.9" y2="-12.4" width="0.1524" layer="21"/>
@@ -453,7 +453,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VERSION" value="v01" x="13.97" y="-1.27" size="1.778" layer="27" display="off"/>
 <attribute name="DESIGNER" value="Nobody" x="13.97" y="-1.27" size="1.778" layer="27" display="off"/>
 </element>
-<element name="U1" library="A_butts" package="ATTINIEST85_SHIELD_V2" value="ATTINIEST85_SHIELDV2" x="18" y="12.5"/>
+<element name="U1" library="A_butts" package="ATTINIER85_SHIELD_V2" value="ATTINIER85_SHIELDV2" x="18" y="12.5"/>
 <element name="DISPLAY1" library="A_butts" package="ADAFRUIT_128X32_OLED_I2C_CLOSER_NOHOLES" value="Adafruit 128x32 OLED" x="18" y="2.5" smashed="yes"/>
 <element name="R1" library="A_butts" package="RESISTOR-AXIAL-PTH-7.62MM" value="4.7k" x="7" y="13" rot="MR90"/>
 <element name="R2" library="A_butts" package="RESISTOR-AXIAL-PTH-7.62MM" value="4.7k" x="10" y="13" rot="MR90"/>

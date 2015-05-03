@@ -8,20 +8,20 @@
 </settings>
 <grid distance="100" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="2" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,17 +39,17 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -172,7 +172,7 @@
 <package name="DUMMY">
 <description>NOTHING HERE!!! For when you want a symbol with no package as an option against symbols with a package.</description>
 </package>
-<package name="ATTINIEST85_SHIELD_V2">
+<package name="ATTINIER85_SHIELD_V2">
 <wire x1="-17.9" y1="9.4" x2="-17.9" y2="-9.4" width="0.1524" layer="21"/>
 <wire x1="-17.9" y1="-9.4" x2="-14.9" y2="-12.4" width="0.1524" layer="21" curve="90"/>
 <wire x1="-14.9" y1="-12.4" x2="14.9" y2="-12.4" width="0.1524" layer="21"/>
@@ -205,40 +205,6 @@
 <text x="14.15" y="-0.02" size="0.8" layer="21" font="vector" ratio="12" rot="SR90" align="bottom-center">1</text>
 <text x="14.15" y="-2.56" size="0.8" layer="21" font="vector" ratio="12" rot="SR90" align="bottom-center">0</text>
 <text x="14.15" y="-5.1" size="0.8" layer="21" font="vector" ratio="12" rot="SR90" align="bottom-center">GND</text>
-</package>
-<package name="ATTINIEST85_SHIELD">
-<wire x1="-17.9" y1="9.4" x2="-17.9" y2="-9.4" width="0.1524" layer="21"/>
-<wire x1="-17.9" y1="-9.4" x2="-14.9" y2="-12.4" width="0.1524" layer="21" curve="90"/>
-<wire x1="-14.9" y1="-12.4" x2="14.9" y2="-12.4" width="0.1524" layer="21"/>
-<wire x1="-17.9" y1="9.4" x2="-14.9" y2="12.4" width="0.1524" layer="21" curve="-90"/>
-<wire x1="14.9" y1="-12.4" x2="17.9" y2="-9.4" width="0.1524" layer="21" curve="90"/>
-<wire x1="17.9" y1="-9.4" x2="17.9" y2="9.4" width="0.1524" layer="21"/>
-<wire x1="17.9" y1="9.4" x2="14.9" y2="12.4" width="0.1524" layer="21" curve="90"/>
-<wire x1="14.9" y1="12.4" x2="-14.9" y2="12.4" width="0.1524" layer="21"/>
-<pad name="RST" x="-3.1" y="-10.5" drill="1" diameter="1.8" shape="octagon"/>
-<pad name="4" x="-0.56" y="-10.5" drill="1" diameter="1.8" shape="octagon"/>
-<pad name="3" x="1.98" y="-10.5" drill="1" diameter="1.8" shape="octagon"/>
-<pad name="GND@1" x="4.52" y="-10.5" drill="1" diameter="1.8" shape="octagon"/>
-<pad name="RAW" x="7.06" y="-10.5" drill="1" diameter="1.8" shape="octagon"/>
-<pad name="VCC" x="-3.1" y="10.5" drill="1" diameter="1.8" shape="octagon"/>
-<pad name="2" x="-0.56" y="10.5" drill="1" diameter="1.8" shape="octagon"/>
-<pad name="1" x="1.98" y="10.5" drill="1" diameter="1.8" shape="octagon"/>
-<pad name="0" x="4.52" y="10.5" drill="1" diameter="1.8" shape="octagon"/>
-<pad name="GND@2" x="7.06" y="10.5" drill="1" diameter="1.8" shape="octagon"/>
-<hole x="-15.25" y="-9.75" drill="2.5"/>
-<hole x="-15.25" y="9.75" drill="2.5"/>
-<hole x="15.25" y="9.75" drill="2.5"/>
-<hole x="15.25" y="-9.75" drill="2.5"/>
-<text x="-3.1" y="-9.4" size="0.8" layer="21" font="vector" ratio="12" align="bottom-center">RST</text>
-<text x="-0.56" y="-9.4" size="0.8" layer="21" font="vector" ratio="12" align="bottom-center">4</text>
-<text x="1.98" y="-9.4" size="0.8" layer="21" font="vector" ratio="12" align="bottom-center">3</text>
-<text x="4.52" y="-9.4" size="0.8" layer="21" font="vector" ratio="12" align="bottom-center">GND</text>
-<text x="7.06" y="-9.4" size="0.8" layer="21" font="vector" ratio="12" align="bottom-center">RAW</text>
-<text x="-3.1" y="9.4" size="0.8" layer="21" font="vector" ratio="12" rot="SR180" align="bottom-center">VCC</text>
-<text x="-0.56" y="9.4" size="0.8" layer="21" font="vector" ratio="12" rot="SR180" align="bottom-center">2</text>
-<text x="1.98" y="9.4" size="0.8" layer="21" font="vector" ratio="12" rot="SR180" align="bottom-center">1</text>
-<text x="4.52" y="9.4" size="0.8" layer="21" font="vector" ratio="12" rot="SR180" align="bottom-center">0</text>
-<text x="7.06" y="9.4" size="0.8" layer="21" font="vector" ratio="12" rot="SR180" align="bottom-center">GND</text>
 </package>
 <package name="ADAFRUIT_128X32_OLED_I2C">
 <pad name="SDA" x="-6.35" y="0" drill="1" diameter="1.6" shape="octagon"/>
@@ -2803,6 +2769,40 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <wire x1="-5.08" y1="0.635" x2="-5.08" y2="-0.635" width="0.1524" layer="21"/>
 <wire x1="-5.08" y1="-0.635" x2="-5.715" y2="-1.27" width="0.1524" layer="21"/>
 </package>
+<package name="ATTINIER85_SHIELD">
+<wire x1="-17.9" y1="9.4" x2="-17.9" y2="-9.4" width="0.1524" layer="21"/>
+<wire x1="-17.9" y1="-9.4" x2="-14.9" y2="-12.4" width="0.1524" layer="21" curve="90"/>
+<wire x1="-14.9" y1="-12.4" x2="14.9" y2="-12.4" width="0.1524" layer="21"/>
+<wire x1="-17.9" y1="9.4" x2="-14.9" y2="12.4" width="0.1524" layer="21" curve="-90"/>
+<wire x1="14.9" y1="-12.4" x2="17.9" y2="-9.4" width="0.1524" layer="21" curve="90"/>
+<wire x1="17.9" y1="-9.4" x2="17.9" y2="9.4" width="0.1524" layer="21"/>
+<wire x1="17.9" y1="9.4" x2="14.9" y2="12.4" width="0.1524" layer="21" curve="90"/>
+<wire x1="14.9" y1="12.4" x2="-14.9" y2="12.4" width="0.1524" layer="21"/>
+<pad name="RST" x="-3.1" y="-10.5" drill="1" diameter="1.8" shape="octagon"/>
+<pad name="4" x="-0.56" y="-10.5" drill="1" diameter="1.8" shape="octagon"/>
+<pad name="3" x="1.98" y="-10.5" drill="1" diameter="1.8" shape="octagon"/>
+<pad name="GND@1" x="4.52" y="-10.5" drill="1" diameter="1.8" shape="octagon"/>
+<pad name="RAW" x="7.06" y="-10.5" drill="1" diameter="1.8" shape="octagon"/>
+<pad name="VCC" x="-3.1" y="10.5" drill="1" diameter="1.8" shape="octagon"/>
+<pad name="2" x="-0.56" y="10.5" drill="1" diameter="1.8" shape="octagon"/>
+<pad name="1" x="1.98" y="10.5" drill="1" diameter="1.8" shape="octagon"/>
+<pad name="0" x="4.52" y="10.5" drill="1" diameter="1.8" shape="octagon"/>
+<pad name="GND@2" x="7.06" y="10.5" drill="1" diameter="1.8" shape="octagon"/>
+<hole x="-15.25" y="-9.75" drill="2.5"/>
+<hole x="-15.25" y="9.75" drill="2.5"/>
+<hole x="15.25" y="9.75" drill="2.5"/>
+<hole x="15.25" y="-9.75" drill="2.5"/>
+<text x="-3.1" y="-9.4" size="0.8" layer="21" font="vector" ratio="12" align="bottom-center">RST</text>
+<text x="-0.56" y="-9.4" size="0.8" layer="21" font="vector" ratio="12" align="bottom-center">4</text>
+<text x="1.98" y="-9.4" size="0.8" layer="21" font="vector" ratio="12" align="bottom-center">3</text>
+<text x="4.52" y="-9.4" size="0.8" layer="21" font="vector" ratio="12" align="bottom-center">GND</text>
+<text x="7.06" y="-9.4" size="0.8" layer="21" font="vector" ratio="12" align="bottom-center">RAW</text>
+<text x="-3.1" y="9.4" size="0.8" layer="21" font="vector" ratio="12" rot="SR180" align="bottom-center">VCC</text>
+<text x="-0.56" y="9.4" size="0.8" layer="21" font="vector" ratio="12" rot="SR180" align="bottom-center">2</text>
+<text x="1.98" y="9.4" size="0.8" layer="21" font="vector" ratio="12" rot="SR180" align="bottom-center">1</text>
+<text x="4.52" y="9.4" size="0.8" layer="21" font="vector" ratio="12" rot="SR180" align="bottom-center">0</text>
+<text x="7.06" y="9.4" size="0.8" layer="21" font="vector" ratio="12" rot="SR180" align="bottom-center">GND</text>
+</package>
 </packages>
 <symbols>
 <symbol name="LETTER_L">
@@ -2844,7 +2844,7 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <wire x1="0" y1="0" x2="0" y2="12.7" width="0.254" layer="94"/>
 <wire x1="93.98" y1="12.7" x2="93.98" y2="0" width="0.254" layer="94"/>
 </symbol>
-<symbol name="ATTINIEST85_SHIELD">
+<symbol name="ATTINIER85_SHIELD">
 <pin name="P0" x="-12.7" y="-2.54" visible="pin" length="short"/>
 <pin name="P1" x="-12.7" y="0" visible="pin" length="short"/>
 <pin name="P2" x="-12.7" y="2.54" visible="pin" length="short"/>
@@ -2951,12 +2951,12 @@ Standard 8.5x11 US Letter frame</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ATTINIEST85_SHIELD" prefix="U">
+<deviceset name="ATTINIER85_SHIELD" prefix="U">
 <gates>
-<gate name="G$1" symbol="ATTINIEST85_SHIELD" x="0" y="0"/>
+<gate name="G$1" symbol="ATTINIER85_SHIELD" x="0" y="0"/>
 </gates>
 <devices>
-<device name="V1" package="ATTINIEST85_SHIELD">
+<device name="V1" package="ATTINIER85_SHIELD">
 <connects>
 <connect gate="G$1" pin="GND@1" pad="GND@1"/>
 <connect gate="G$1" pin="GND@2" pad="GND@2"/>
@@ -2973,7 +2973,7 @@ Standard 8.5x11 US Letter frame</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="V2" package="ATTINIEST85_SHIELD_V2">
+<device name="V2" package="ATTINIER85_SHIELD_V2">
 <connects>
 <connect gate="G$1" pin="GND@1" pad="GND@1"/>
 <connect gate="G$1" pin="GND@2" pad="GND@2"/>
@@ -4332,7 +4332,7 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 </classes>
 <parts>
 <part name="FRAME1" library="A_butts" deviceset="FRAME-LETTER" device="NO_PACKAGE"/>
-<part name="U1" library="A_butts" deviceset="ATTINIEST85_SHIELD" device="V2"/>
+<part name="U1" library="A_butts" deviceset="ATTINIER85_SHIELD" device="V2"/>
 <part name="SUPPLY1" library="A_butts" deviceset="VCC" device=""/>
 <part name="GND1" library="A_butts" deviceset="GND" device=""/>
 <part name="GND2" library="A_butts" deviceset="GND" device=""/>

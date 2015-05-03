@@ -416,7 +416,7 @@ grid 2.54 mm, diameter 5 mm</description>
 <wire x1="-2.794" y1="0" x2="-3.937" y2="0" width="0.1524" layer="21"/>
 <wire x1="2.794" y1="0" x2="3.937" y2="0" width="0.1524" layer="21"/>
 </package>
-<package name="ATTINIEST85_SHIELD_V2">
+<package name="ATTINIER85_SHIELD_V2">
 <wire x1="-17.9" y1="9.4" x2="-17.9" y2="-9.4" width="0.1524" layer="21"/>
 <wire x1="-17.9" y1="-9.4" x2="-14.9" y2="-12.4" width="0.1524" layer="21" curve="90"/>
 <wire x1="-14.9" y1="-12.4" x2="14.9" y2="-12.4" width="0.1524" layer="21"/>
@@ -682,7 +682,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="23.65" y="2.5" size="0.6" layer="25" font="vector" ratio="11" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" x="11.35" y="2.5" size="0.6" layer="21" font="vector" ratio="11" rot="R90" align="bottom-center"/>
 </element>
-<element name="U1" library="A_butts" package="ATTINIEST85_SHIELD_V2" value="ATTINIEST85_SHIELDV2" x="18" y="12.5"/>
+<element name="U1" library="A_butts" package="ATTINIER85_SHIELD_V2" value="ATTINIER85_SHIELDV2" x="18" y="12.5"/>
 </elements>
 <signals>
 <signal name="GND">

@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.25" unitdist="mm" unit="mm" style="lines" multiple="2" display="yes" altdistance="1" altunitdist="mil" altunit="mil"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="2" display="yes" altdistance="1" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -179,7 +179,7 @@
 <package name="DUMMY">
 <description>NOTHING HERE!!! For when you want a symbol with no package as an option against symbols with a package.</description>
 </package>
-<package name="ATTINIEST85_SHIELD_V2">
+<package name="ATTINIER85_SHIELD_V2">
 <wire x1="-17.9" y1="9.4" x2="-17.9" y2="-9.4" width="0.1524" layer="21"/>
 <wire x1="-17.9" y1="-9.4" x2="-14.9" y2="-12.4" width="0.1524" layer="21" curve="90"/>
 <wire x1="-14.9" y1="-12.4" x2="14.9" y2="-12.4" width="0.1524" layer="21"/>
@@ -188,16 +188,16 @@
 <wire x1="17.9" y1="-9.4" x2="17.9" y2="9.4" width="0.1524" layer="21"/>
 <wire x1="17.9" y1="9.4" x2="14.9" y2="12.4" width="0.1524" layer="21" curve="90"/>
 <wire x1="14.9" y1="12.4" x2="-14.9" y2="12.4" width="0.1524" layer="21"/>
-<pad name="RST" x="-15.25" y="5.06" drill="1" diameter="1.8" shape="octagon" rot="R270"/>
-<pad name="4" x="-15.25" y="2.52" drill="1" diameter="1.8" shape="octagon" rot="R270"/>
-<pad name="3" x="-15.25" y="-0.02" drill="1" diameter="1.8" shape="octagon" rot="R270"/>
-<pad name="GND@1" x="-15.25" y="-2.56" drill="1" diameter="1.8" shape="octagon" rot="R270"/>
-<pad name="RAW" x="-15.25" y="-5.1" drill="1" diameter="1.8" shape="octagon" rot="R270"/>
-<pad name="VCC" x="15.25" y="5.06" drill="1" diameter="1.8" shape="octagon" rot="R270"/>
-<pad name="2" x="15.25" y="2.52" drill="1" diameter="1.8" shape="octagon" rot="R270"/>
-<pad name="1" x="15.25" y="-0.02" drill="1" diameter="1.8" shape="octagon" rot="R270"/>
-<pad name="0" x="15.25" y="-2.56" drill="1" diameter="1.8" shape="octagon" rot="R270"/>
-<pad name="GND@2" x="15.25" y="-5.1" drill="1" diameter="1.8" shape="octagon" rot="R270"/>
+<pad name="RST" x="-15.25" y="5.06" drill="1.2" diameter="1.9" shape="octagon" rot="R270"/>
+<pad name="4" x="-15.25" y="2.52" drill="1.2" diameter="1.9" shape="octagon" rot="R270"/>
+<pad name="3" x="-15.25" y="-0.02" drill="1.2" diameter="1.9" shape="octagon" rot="R270"/>
+<pad name="GND@1" x="-15.25" y="-2.56" drill="1.2" diameter="1.9" shape="octagon" rot="R270"/>
+<pad name="RAW" x="-15.25" y="-5.1" drill="1.2" diameter="1.9" shape="octagon" rot="R270"/>
+<pad name="VCC" x="15.25" y="5.06" drill="1.2" diameter="1.9" shape="octagon" rot="R270"/>
+<pad name="2" x="15.25" y="2.52" drill="1.2" diameter="1.9" shape="octagon" rot="R270"/>
+<pad name="1" x="15.25" y="-0.02" drill="1.2" diameter="1.9" shape="octagon" rot="R270"/>
+<pad name="0" x="15.25" y="-2.56" drill="1.2" diameter="1.9" shape="octagon" rot="R270"/>
+<pad name="GND@2" x="15.25" y="-5.1" drill="1.2" diameter="1.9" shape="octagon" rot="R270"/>
 <hole x="-15.25" y="-9.75" drill="2.5"/>
 <hole x="-15.25" y="9.75" drill="2.5"/>
 <hole x="15.25" y="9.75" drill="2.5"/>
@@ -636,7 +636,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VERSION" value="v01" x="13.97" y="-1.27" size="1.778" layer="27" display="off"/>
 <attribute name="DESIGNER" value="Nobody" x="13.97" y="-1.27" size="1.778" layer="27" display="off"/>
 </element>
-<element name="U1" library="A_butts" package="ATTINIEST85_SHIELD_V2" value="ATTINIEST85_SHIELDV2" x="18" y="12.5"/>
+<element name="U1" library="A_butts" package="ATTINIER85_SHIELD_V2" value="ATTINIER85_SHIELDV2" x="18" y="12.5"/>
 <element name="BATT" library="A_butts" package="BATTCON_20MM_MINE" value="CR2032" x="18" y="10.4" rot="R270"/>
 <element name="U$3" library="A_butts" package="CC-BY-SA-4.0-NO-URL" value="" x="28" y="12.5" rot="MR0"/>
 <element name="U$4" library="A_butts" package="OSHWLOGO_TOP_0.2" value="" x="8" y="12.5" rot="MR0"/>
