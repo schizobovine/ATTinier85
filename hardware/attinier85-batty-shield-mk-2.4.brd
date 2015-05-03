@@ -174,10 +174,10 @@
 <text x="23.5" y="22.75" size="1.5" layer="21" font="vector" ratio="12" rot="SR90" align="top-center">OFF</text>
 <text x="28.3" y="3.6" size="1" layer="21" font="vector" ratio="12" align="top-center">+ side
 goes up</text>
-<text x="18" y="6" size="1.25" layer="22" font="vector" ratio="15" rot="MR0" align="top-center">ATTiniest85 Shield</text>
+<text x="18" y="6" size="1.25" layer="22" font="vector" ratio="15" rot="MR0" align="top-center">ATTinier85 Shield</text>
 <text x="18" y="4" size="0.7" layer="22" font="vector" ratio="12" rot="MR0" align="top-center">&gt;VERSION</text>
 <text x="18" y="3" size="0.7" layer="22" font="vector" ratio="12" rot="MR0" align="top-center">&gt;AUTHOR</text>
-<text x="18" y="6" size="1.25" layer="16" font="vector" ratio="15" rot="MR0" align="top-center">ATTiniest85 Shield</text>
+<text x="18" y="6" size="1.25" layer="16" font="vector" ratio="15" rot="MR0" align="top-center">ATTinier85 Shield</text>
 </plain>
 <libraries>
 <library name="A_butts">
